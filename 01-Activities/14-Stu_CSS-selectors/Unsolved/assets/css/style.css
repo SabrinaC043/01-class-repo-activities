@@ -1,12 +1,16 @@
 /* TODO: Label selector type */
+/* Label Selector type asterisk represents in CSS to select all elements. It is known as a universal selector.  */
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
 /* TODO: Label selector type */
+/* Body is an element selector and effects the body which is what will appear on webpage for user to view.  */
 body {
   background-color: lemonchiffon;
 }
+
+/* Group selector */
 
 header,
 footer {
@@ -17,17 +21,22 @@ footer {
   background-color: #191970;
 }
 
+/* Simple Selector */
 figure {
   width: 200px;
   background-color: #f0ead6;
 }
 
 /* TODO: Label selector type */
+/* element selector  */
 .highlighted-text {
   font-weight: bolder;
 }
 
 /* TODO: Label selector type */
+/* simple selector */
 #contact-section {
   background-color: #f0ead6;
 }
+/* Bonus Question */
+/* Pseudo Class Selectors change the color of a link when you hover over it/ gets focus. */
