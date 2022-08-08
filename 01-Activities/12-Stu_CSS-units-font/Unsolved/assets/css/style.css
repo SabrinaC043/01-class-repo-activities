@@ -1,19 +1,39 @@
-/* TODO: Add typography */
-.lesson {
+* { 
+  display: block;
+
+}
+
+
+
+.fact-1 {
     background-color: #fffacd;
+    font-style: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-/* Fact 1 */
-#fact-1 {
-  font-weight: bolder;
+ .h2 {
+
+ }
+
+p {
+  font-weight: bold;
+
 }
 
-/* TODO: Fact 2 */
-#fact-2 {
-
+.fact-2 {
+  background-color: #fffacd;
+  font-style:"Ludida Sans", "Lucida Grande", sans-serif;
+  font-size:24px;
 }
 
-/* TODO: Fact 3 */
-#fact-3 {
-  
+h2 {
+
+ }
+
+.fact-3 { 
+  background-color: #fffacd;
+}
+
+#p {
+  line-height: 50px;
+
 }
