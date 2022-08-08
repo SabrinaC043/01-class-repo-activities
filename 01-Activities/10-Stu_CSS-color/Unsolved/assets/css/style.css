@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   
- 
+
 }
 
 body { 
@@ -16,6 +16,7 @@ flex-direction: column;
   }
   
   #section-1 { 
+
    background-color: black;
    color: yellow;
 }
@@ -32,6 +33,7 @@ max-width:100%;
 background-color: black;
 color: white;
 }
+
 .container h2 {
 width:100vh;
 }
