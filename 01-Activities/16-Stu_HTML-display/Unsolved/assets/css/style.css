@@ -1,29 +1,41 @@
+* {
+  
+}
 header {
   width: 100%;
   background-color: lightblue;
 }
-
+/* HTML Display */
 h2 {
-  text-align: left;
+  text-align:left;
 }
 
-ul {
+
+
+ul { 
   text-align: right;
   color: #ffffff;
 }
 
+
+
+
 /* List items in navigation bar */
-li {
-  /* TODO: Add your code here */
+ li {
+  display:inline-flex;
+  flex-direction:row;
   list-style-type: none;
   font-size: 40px;
 }
 
 /* Boxes */
 img {
-  display: block/* TODO: Add your code here */
+  display: block;
   margin: 0 auto;
-}
+} 
+  
+  /* * TODO: Add your code here */ 
+
 
 #item-1 {
   background-color: #e0115f;
@@ -39,6 +51,6 @@ img {
 
 /* Box 3 */
 #image-3 {
-  /* TODO: Add your code here */
+visibility: visible;
 
-}
+}   
