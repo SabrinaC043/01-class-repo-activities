@@ -1,19 +1,48 @@
+* { box-sizing:border-box;
+
+}
+
+
+.title {
+  color: darkblue;
+
+}
+
 .lesson {
   background-color: lemonchiffon;
 }
 
-.title {
-  color: darkblue;
+.h2 {
+   color: #ffffff;
+  background-color:lemonchiffon;
 }
 
-#email {
-  background-color: goldenrod;
+.h2 img { 
+   background-color: lemonchiffon;
+ }
+
+ p { 
+  text-align: left;
+ }
+
+.lesson h1 {  display:flexbox;
+  color:darkblue;
+}
+.email  {
+  
+  background-color: darkgoldenrod;
+  height:10px;
+  width:100%;
 }
 
-#github {
-  background-color: lightsteelblue;
+ .github  {
+  background-color:lightblue;
+  height:10px;
+  width:100%;
 }
 
-#portfolio {
-  background-color: darkorange;
+.portfolio  {
+  background-color: orange; 
+  height:10px;
+  width:100%;
 }
