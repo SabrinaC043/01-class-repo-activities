@@ -29,13 +29,14 @@ The following image demonstrates the web application's appearance and functional
 ## 💡 Hints
 
 Why is it important that each global attribute is given a unique name?
+Because they can be applied to all elements and if they aren't unique, will not be identifiable and individually modified. 
 
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
 * What other attributes can be used with HTML elements?
-
+<audio> <video> <button> etc. 
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
