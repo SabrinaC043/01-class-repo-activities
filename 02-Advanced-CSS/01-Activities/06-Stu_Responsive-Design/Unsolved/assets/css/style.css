@@ -16,7 +16,7 @@ header {
 
 /* 
 What happens when we set the display property to flex? 
-TODO: Write your answer here 
+TODO:  Boxes are sorted to horizontally and within a container.
 */
 nav {
   display: flex;
@@ -32,7 +32,8 @@ nav a {
 
 /* 
 What is the flex-wrap property? 
-TODO: Write your answer here 
+TODO: Flex wrap allows you to specify whether or not you want your content to stack on top of eachother or not when space is limited or media screen is smaller than desktop*/
+
 */
 main {
   display: flex;
@@ -56,9 +57,9 @@ footer {
 
 /* 
 What does the justify-content property do? 
-TODO: Write your answer here 
-*/
-.products {
+TODO: Write your answer here : Aligns on opposite axis of the flex-direction. */
+
+.products { 
   flex: 4;
   background-color: #fff;
   padding: 20px;
@@ -67,11 +68,12 @@ TODO: Write your answer here
   justify-content: center;
 }
 
-/* 
-What is the flex property a shorthand property for?
+
+/* What is the flex property a shorthand property for?
 What is it doing here? 
-TODO: Write your answer here 
-*/
+TODO: Write your answer here: Flex Grow is to have essentially 
+the amount of screen space one box takes up compared to the other sizes amongst other elements that take up one line of space. flex: flex-grow flex-shrink flex-basis*/  
+
 .card {
   border-style: solid;
   border-width: 1px;
@@ -94,12 +96,18 @@ TODO: Write your answer here
 
 /* 
 What does the flex-direction property define?
+Flex direction: helps determine whether the direction is going to be a column (up&down) or a row (left to right)
+
 What is it doing here? 
-TODO: Write your answer here 
+TODO: Write your answer here : ensuring the same rule applies when screen is being expanded or shrunk. 
 */
+
 @media screen and (max-width: 768px) {
   main,
   nav {
     flex-direction: column;
   }
 }
+
+
+

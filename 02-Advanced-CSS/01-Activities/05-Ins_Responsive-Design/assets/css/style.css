@@ -5,6 +5,7 @@
 body {
   font-family: Arial;
   margin: 0;
+  flex: 0;
 }
 
 header {
@@ -16,6 +17,7 @@ header {
 
 nav {
   display: flex;
+  flex-wrap:wrap; 
   background-color: #d8a47f;
 }
 
@@ -63,18 +65,20 @@ footer {
   main,
   nav {
     flex-direction: column;
+    flex-wrap: wrap;
   }
   /* Make the sidebar stack below the body */
   aside {
     order: 2;
+    flex-wrap: wrap;
   }
   /* Change the header background */
   header {
-    background: #772014;
+    background: #13293d;
   }
   /* Change the navbar and footer background */
   nav,
   footer {
-    background-color: #bb8588;
+    background-color: #13293d;
   }
 }

@@ -27,7 +27,7 @@ nav a {
   color: #13293d;
   padding: 14px 20px;
   text-decoration: none;
-  text-align: center;
+  text-align:right;
 }
 
 footer {
@@ -45,7 +45,9 @@ footer {
 }
 
 .product button {
-  font-size: 150%;
+  font-size: 16px;
+  padding: 2px 2px;
+
 }
 
 .product-slideshow {

@@ -1,0 +1,34 @@
+/* * { 
+}
+
+/* Sabrina Carrion */
+header { 
+    background-color: lightgrey;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    
+}
+
+/* background of entire webpage */
+body    { 
+    background-color: rgb(55, 114, 79)
+}
+
+
+/* nav bar bullet points in the unordered list   */
+ ul {
+    background-color: orangered
+ }
+
+/* section of nav bar where text is going to be displayed */
+ ul li {
+    background-color: aquamarine; }
+
+
+
+
+.section {
+
+} */
+
