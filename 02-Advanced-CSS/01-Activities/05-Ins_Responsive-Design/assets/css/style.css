@@ -5,7 +5,6 @@
 body {
   font-family: Arial;
   margin: 0;
-  flex: 0;
 }
 
 header {
@@ -17,7 +16,6 @@ header {
 
 nav {
   display: flex;
-  flex-wrap:wrap; 
   background-color: #d8a47f;
 }
 
@@ -62,23 +60,25 @@ footer {
 
 @media screen and (max-width: 768px) {
   /* Use flex-direction to stack the navbar, sidebar, and body */
-  main,
+  /* you will use flex-direction:column so they can stack*/ 
+  main {}
   nav {
     flex-direction: column;
-    flex-wrap: wrap;
   }
   /* Make the sidebar stack below the body */
   aside {
-    order: 2;
-    flex-wrap: wrap;
+    order: 1;
   }
   /* Change the header background */
   header {
-    background: #13293d;
+    background: #ffb164;
   }
   /* Change the navbar and footer background */
-  nav,
+  /* in order to complete this change you will need to type background: #fff; */then for the footer make sure that there is an indiviual background-color/*
+
+  nav
+
   footer {
-    background-color: #13293d;
+    background-color: #7b6e84;
   }
 }

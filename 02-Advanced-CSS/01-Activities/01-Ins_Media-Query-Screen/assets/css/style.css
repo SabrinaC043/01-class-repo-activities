@@ -59,6 +59,10 @@ footer {
 
 /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
 
+
+/* min-width or max-width */
+/*max-width is the breakpoint */
+
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
   header {
@@ -71,6 +75,8 @@ footer {
   nav {
     background-color: #bb8588;
   }
+
+  p { font-size:}
 }
 
 /* Small smartphones - image placeholders change color */

@@ -11,24 +11,57 @@ header {
 }
 
 /* background of entire webpage */
-body    { 
-    background-color: rgb(55, 114, 79)
+body    { display:block
+    
 }
 
 
 /* nav bar bullet points in the unordered list   */
- ul {
-    background-color: orangered
+ ul { display:flex;
+    list-style-type: none;
+    background-color: rgb(212, 244, 210);
  }
+
+ 
+
 
 /* section of nav bar where text is going to be displayed */
  ul li {
-    background-color: aquamarine; }
+    color:ffffff;
+    background-color: rgb(189, 232, 217); 
+}
+
+a:link { 
+    color: blue;
+    text-decoration: none;}
+
+    a:visited { color:black;}
+
+    a:hover { color:darkcyan}
+
+.Work { 
+    text-align:left;
+    background-color: rgb(189, 232, 217);    
+    }
+
+img {
+    position:center;
+    background-color: black;
+} 
+    
+/* All H2 About, Resume, Work and Contact */
+h2 {
+    font-style:italic;
+background-color: rgb(240, 246, 240);
+list-style-type: none;
+
+}
 
 
 
 
-.section {
-
-} */
-
+footer { 
+    justify-content: center;
+    font-style: italic;
+    font-size: 16px;
+}
