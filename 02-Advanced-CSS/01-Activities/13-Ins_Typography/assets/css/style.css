@@ -1,4 +1,5 @@
 body {
+  font-size: 16px;
   display: flex;
   flex-direction: column;
   line-height: 1.3;
@@ -6,6 +7,7 @@ body {
 
 header {
   display: flex;
+  font-size:32px;
   justify-content: space-between;
   align-items: center;
   padding: 1%;
@@ -15,7 +17,7 @@ header {
 
 /* Change font size of headings */
 h1 {
-  font-size: 200%;
+  font-size: 150%;
 }
 
 /* Change the margin */
@@ -53,6 +55,7 @@ article {
 }
 
 article p {
+  line-height: 1.5;
   margin: 2% 0;
   font-size: 110%;
 }

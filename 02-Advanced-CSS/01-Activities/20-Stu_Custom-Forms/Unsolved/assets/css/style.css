@@ -113,6 +113,7 @@ select:hover, button:hover {
 }
 
 /* What does this pseudo-class mean? */
+/* form input that has received focus. generally triggered through taps */
 .text-input:focus {
   border-right-width: 5px;
 }
@@ -137,12 +138,14 @@ select:hover, button:hover {
 }
 
 /* What does this selector do? */
+/* cosmetic change shows with a grey italic checkmark that this has been selected after clicked */
 .checkbox:checked + label {
   color: #999999;
   font-style: italic;
 }
 
 /* What does this selector do? */
+/* Once there has been a response from the user the computer will accept input and provide thank to user after data has been received.  */
 .checkbox:checked + label::after {
   margin-left: 10px;
   font-size: 90%;
