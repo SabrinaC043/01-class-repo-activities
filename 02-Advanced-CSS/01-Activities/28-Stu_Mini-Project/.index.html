@@ -6,42 +6,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet" />
     <title>CSS Cheat Sheet</title>
 </head>
 
 <body>
-    <header>
+ <main>
 
-        <h1> CSS Cheatsheet</h1>
+ <div class="box-1">
+    <header> CSS Snippet CheatSheet </header>
+     <h2>Flexbox Row</h2>
+      <li a href="https://www.w3schools.com/css/css3_flexbox.asp" target="_blank">FlexBox Row</li>
+       <p>
+        .row {
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap
+            }
+
+    </p>
+ </div>
+
+<div class="box-2"> 
+    <h2>Grid Layout</h2>
+        <li href="https://www.w3schools.com/css/css_grid.asp">Grid Layout</li>
         <p>
+            . grid {
+                display:grid;
+                width:100%;
+                grid-template-columns:
+                repeat (12, 1 fr):)
+            }
+        </p>
+    </div>
+    
+        <div class="box-3">        
+        <h2>CSS  Forms </h2>
+
+        <li a href="https://www.w3schools.com/css/css_form.asp" target="_blank">CSS Forms</li>
+
+         <p>
+           Form Passwords:label for="inputPassword5" class="form-label">Password/label
+           input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+           div id="passwordHelpBlock" class="form-text">
+             Your password must be 8-20 characters long, contain letters and 
+             numbers, and must not contain spaces, special characters, or emoji.
+           div.
+        </p>
+
+        <div class="box-4"> 
+
+         <h2> Z-Index  </h2> 
+            <ul>
+                <li href="https://www.w3schools.com/css/css_z-index.asp" target="_blank">CSS Z Index</li>
+
+                 <li href="https://www.w3schools.com/css/css_templates.asp" target="_blank">CSS Templates</li>
+         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Aut autem nam ipsa? Sed laborum, nulla harum corrupti,
             voluptatum quo ad minima dicta reiciendis maiores ducimus
             rem omnis perferendis qui possimus?
 
+        </ul> 
         </p>
-    </header>
 
-    <main>
-        <div container>   
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
+         </div>
+
+         <div class="box-5">        
+            <h2>CSS Passwords </h2>
+    
+         <li a href="https://www.w3schools.com/tags/att_input_type_password.asp"
+          target="_blank">Passwords</li>
+          <p> 
+            Form Passwords:label for="inputPassword5" class="form-label">Password/label
+            input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+            div id="passwordHelpBlock" class="form-text">
+              Your password must be 8-20 characters long, contain letters and 
+              numbers, and must not contain spaces, special characters, or emoji.
+            div. 
+        </p>
+
+        <div class="box-6">        
+            <h2>CSS Media Queries </h2>
+            <li a href=" https://www.w3schools.com/css/css3_mediaqueries.asp"
+            target="_blank">Media Queries</li>
+            <p> 
+                @media screen and (min-width: 480px) {
+                    #leftsidebar {width: 200px; float: left;}
+                    #main {margin-left: 216px;}
+                  }
+
+            </p>
+       </div>
+       
 
 
 
-        </div>
+   
+</main>
+<footer> Cheetsheet Sabrina Study Aid</footer>
 
-
-        </section>
-
-
-
-    </main>
-    <footer> Cheetsheet Sabrina Study Aid</footer>
 </body>
 
 </html>

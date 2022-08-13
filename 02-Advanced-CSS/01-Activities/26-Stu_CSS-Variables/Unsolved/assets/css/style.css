@@ -1,7 +1,7 @@
-:root { color: ffffff; 
-      background: #13293d;
-
-
+:root 
+     --white  { 
+      background-color: #ffff; 
+      --border-radius: 50px;
 
 }
 /*DRY DON'T REPEAT YOURSELF to avoid redundancy */
@@ -27,7 +27,7 @@ header {
   padding: 40px;
   text-align: center;
   background: #13293d;
-  color: #fff;
+  color: var(--white);
 }
 
 nav {
@@ -43,7 +43,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #fff;
+color: var(--white);
 }
 
 main {
@@ -57,13 +57,13 @@ footer {
   padding: 20px;
   text-align: center;
   background: #13293d;
-  color: #fff;
+  color: var(--white);
   margin-top: auto;
 }
 
 .products {
   flex: 1;
-  background-color: #fff;
+  background-color:var(--white)
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -82,7 +82,8 @@ footer {
 }
 
 .card > header {
-  border-radius: 50px 50px 0px 0px;
+  border-radius: --var(border-radius)
+   --var(border-radius) 0px 0px;
   padding: 20px;
 }
 

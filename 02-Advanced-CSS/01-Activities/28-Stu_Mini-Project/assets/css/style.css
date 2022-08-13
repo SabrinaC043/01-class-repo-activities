@@ -1,19 +1,62 @@
-* {
-    border: paleturquoise
+
+* { 
+    background-color: rgb(88, 65, 110);
+    border: 1px solid rgb(39, 0, 57);
+    font-family: 'Cormorant Garamond', serif;
+    
+    
 }
 
+body {
+    display:flex;
+    flex-direction:row;
+    line-height: 1.5;
+}
+
+
 header {
-    border: 3px solid blue;
+    color: #ffffff;
     text-align: center;
-    font-size: 36x;
+    font-size: 36px;
+}
+
+
+.box {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
 }
 
 p {
-    background: blueviolet;
-    color: #ffffff;
     text-align: left;
+    font-size:16px;
+    color: #ffffff;
 }
 
-.flex-container {
-   color:orange;
+
+
+/* h2 { 
+font-size: 24px;
+color:#f5e8ff;
+text-align:left;
 }
+
+li {
+     text-decoration:none; 
+
+}
+
+h2 li a {
+    
+    list-style-type: none;
+}
+
+
+ 
+.box-2  {
+
+
+    background:blue;
+} */

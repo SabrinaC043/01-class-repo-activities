@@ -1,113 +1,130 @@
-* {
-    background-color: blanchedalmond;
-}
 
 
-/* background of entire webpage */
-body    { 
-    display:inline-block;
+body {
     font-family: 'Cormorant Garamond', serif;
-    
-}
+background-color:rgb(163, 156, 169)}
 
-header { 
-    background-color: rgb(105, 101, 128);
-    text-align: left;
-    font-size: 36px;
-    color:rgb(11, 4, 59);
-    
-}
-
-/* nav bar bullet points in the unordered list   */
- nav ul { 
-
-    list-style-type:none;
-    background-color: rgb(105, 101, 128);
-    color:black;
-    
- }
-
- 
-
-
-/* section of nav bar where text is going to be displayed */
- ul li {
-    display:inline-flex;
-    text-decoration:wavy;
-    color:ffffff;
+header {
+    background-color: rgb(112, 87, 136);
+    color: #ffffff;
 
 }
 
-    a:hover { 
+
+li.navbar {
+    display:inline;
+    margin-right:10px;
+    text-decoration: none;
+}
+
+a:hover {
     color: blue;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
-    a::after { color:black;}
+a:visited {
+    color: rgb(253, 247, 255);
+}
 
-    a:hover { color:darkcyan}
+a:hover {
+    color: rgb(1, 1, 244)
+}
 
-.Work { 
-    text-align:left;
-    background-color: rgb(77, 62, 92);    
-    }
-
-img { display: inline-block;
-    position:center;
-    background-color: black;
-    min-height:100%;
-    width:25%
-} 
-
+.About {
+   
+    display:inline-flex;
+    background-color: rgb(112, 87, 136);
+    color: #ffffff;
+}
 p {
-     text-align:center;
-    font-size:16px;
-
-
+    text-align: center;
+    font-size: 16px;
 }
-
-
-.About { 
-
-     background-color: rgb(112, 87, 136);
-
-}
-
- img { 
-    position:relative;
-     align-content: center;
-    min-width: 25%;
-    background-color:rgb(112, 87, 136);
-
-
-}
-
-
-
-.Resume
-
-
-/* All H2 About, Resume, Work and Contact */
-h2 { display: inline;
-    font-style:italic;
+img {
+    height: 200px;
+    width: 200px;
     background-color: rgb(112, 87, 136);
-    list-style-type: none;
-
 }
 
-ul li a { display:row, {
-    background-color: rgb(112, 87, 136);
+.Work {
+    
+    flex-direction:row;
+    justify-content: left;
+    background-color: rgb(77, 62, 92);
+    color: #ffffff;
     
 }
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+img {
+    background-color: black;
+    position:center;
+    height: 200px;
+    width: 200px;
+
+}
+
+
+.Resume {
+  
+    flex-direction:row;
+    justify-content: left;
+    background-color: rgb(105, 101, 128);
+    color: #ffffff;
+
+}
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(112, 87, 136);
+
+}
+
+.Contact {
+    
+    background-color: rgb(77, 62, 92);
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+ul li a {
+    display: inline-flex;
+
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+a::visited {
+    color: rgb(253, 247, 255);
+}
+
+a:hover {
+    color: rgb(1, 1, 244)
+}
 
 
 
 
-footer { 
+footer {
+    background-color: rgb(77, 62, 92);
     justify-content: center;
     font-style: italic;
     font-size: 18px;
+    color: white;
 }
 
-@media (min-width: 768px) { 
-    .nav flex-wrap: wrap);
-}
+ @media screen and (min-width: 768px;)::after{
+    /* (.navbar max-width: 992px;) */
+  
+}  
